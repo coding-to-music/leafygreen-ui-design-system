@@ -1,3 +1,33 @@
+# leafygreen-ui-design-system
+
+# 🚀 Javascript full-stack 🚀
+
+https://github.com/coding-to-music/leafygreen-ui-design-system
+
+https://leafygreen-ui-design-system.vercel.app
+
+From / By https://github.com/mongodb/leafygreen-ui
+
+https://www.mongodb.design/
+
+## Environment variables:
+
+```java
+```
+
+## GitHub
+
+```java
+git init
+git add .
+git remote remove origin
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:coding-to-music/leafygreen-ui-design-system.git
+git push -u origin main
+```
+
+
 # LeafyGreen UI Kit
 
 A set of CSS styles and React components built with design in mind.

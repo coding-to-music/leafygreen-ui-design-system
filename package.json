@@ -1,5 +1,5 @@
 {
-  "description": "leafyGreen UI Kit",
+  "description": "leafygreen-ui-design-system",
   "license": "Apache-2.0",
   "private": true,
   "engines": {
@@ -58,7 +58,9 @@
     "test:local": "jest --env jsdom --config jest.config.js",
     "test:ssr": "jest --env jsdom --config ssr.jest.config.js",
     "watch": "yarn build -- -- --watch",
-    "parse-docs": "node ./scripts/parse-tsdocs.js"
+    "parse-docs": "node ./scripts/parse-tsdocs.js",
+    "vercel": "npm run deploy && vercel --prod",
+    "deploy": "git add . && git commit -m Build && git push"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
